@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color: #3F7D58;
+    --text-color: #EFEFEF;
+    --primary-color: #EF9651;
+    --secondary-color: #EC5228;
+}
+body{
+    font-family: sans-serif;
+    background-color: var(--bg-color);
+    color: #EFEFEF;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 30rem;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    background-color: var(--primary-color);
+}
+.heading span{
+    margin-left: 0.1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: var(--secondary-color);
+}
+section{
+    margin: 0 15rem;
+}
+.add-task{
+    margin: 2rem 0rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color:#EF9651;
+}
+.add-task .heading1{
+    margin-bottom: 1rem;
+}
+.add-task .add-task-input{
+    display: flex;
+    justify-content:space-between;
+}
+.add-task .add-task-input #add-task-name{
+    display: flex;
+    font-size: 1.5rem;
+    width: 59rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding-left: 1rem;
+}
+.add-task .add-task-input .btn{
+    font-size: 2rem;
+    background-color:whitesmoke;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.added-task{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem;
+    padding: 1rem;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color:#EF9651;
+    position: relative;
+}
+.added-task .heading1{
+    margin-bottom: 1rem;
+}
+.added-task .task-list{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.added-task .task-list .task-list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    background-color: #3F7D58;
+}
+.added-task .task-list .task-list-item i{
+    cursor: pointer;
+}
+.added-task button{
+    font-size: 0.8rem;
+    background-color:whitesmoke;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF9651;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+}
