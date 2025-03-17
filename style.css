@@ -39,6 +39,7 @@ ul{
 }
 section{
     margin: 0 15rem;
+    margin-bottom: 5rem;
 }
 .add-task{
     margin: 2rem 0rem;
